@@ -1,0 +1,182 @@
+*{margin: 0;
+padding: 0;
+font-family: 'Work Sans', sans-serif;
+}
+
+/* Banner Section */
+.banner-sec{
+    display: flex;
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 1348px;
+    height: 808px;
+    justify-content: right;
+}
+.banner-dtls{
+    text-align: right;
+    margin-right: 165px;
+}
+.banner-title{
+    margin-top: 220px;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-desc{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 30px;
+}
+.banner-btn{
+    padding: 17px 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Body Section */
+
+.body-part{
+    display: flex;
+    margin-top: 120px;
+}
+
+.body-partimg{
+    margin-left: 180px;
+}
+.body-parttitle{
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+.body-partdesc{
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 20px;
+}
+.bodyprt-line{
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.body{
+    margin-top: 230px;
+    margin-left: 80px;
+}
+.line-symbol{
+    display: flex;
+    align-items: center;
+}
+.line-space{
+    margin-left: 5px;
+}
+
+/* Second Banner */
+
+.scndbnr-title{
+    margin-top: 120px;
+    margin-bottom: 55px;
+    text-align: center;
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.second-banner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.web-java{
+    color: var(--dark-01, #151414);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.web-javadesc{
+    color: var(--dark-03, #737272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.web-dev{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* 3rd Section */
+
+.thrd-sectitle{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 60px;
+    margin-top: 120px;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+.scnd-btn{
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 17px 25px;
+    border-style: none;
+    margin-left: 60px;
+}
+.thrd-section{
+    background-image: url(./images/watch.png), url(./images/gradient2.png);
+    width: 1050px;
+    height: 250px;
+    background-position: center;
+    border-radius: 10px;
+    background-blend-mode: overlay;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+/* Footer Section */
